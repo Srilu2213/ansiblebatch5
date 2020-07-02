@@ -1,0 +1,4 @@
+---
+- name: install https package
+  yum: name=httpd state=latest
+
